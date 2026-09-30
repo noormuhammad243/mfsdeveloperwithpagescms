@@ -1,0 +1,86 @@
+media: images
+
+content:
+  - name: home
+    label: Landing Page
+    type: file
+    path: data/home.json
+    fields:
+      - { name: site_name, label: Business name, type: string }
+      - { name: whatsapp_number, label: WhatsApp number (country code, no + or spaces), type: string }
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: button_text, label: Button text, type: string }
+          - { name: secondary_text, label: Second link text, type: string }
+          - { name: image, label: Image (optional), type: image }
+      - name: stats
+        label: Numbers under hero
+        type: object
+        list: true
+        fields:
+          - { name: value, label: Value, type: string }
+          - { name: label, label: Label, type: string }
+      - name: about
+        label: About
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: points, label: Key points, type: string, list: true }
+      - { name: services_title, label: Services title, type: string }
+      - name: services
+        label: Services
+        type: object
+        list: true
+        fields:
+          - name: icon
+            label: Icon
+            type: select
+            options:
+              values: [bag, code, speed, app, move, tools]
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: text }
+      - { name: testimonials_title, label: Testimonials title, type: string }
+      - name: testimonials
+        label: Testimonials
+        type: object
+        list: true
+        fields:
+          - { name: quote, label: Quote, type: text }
+          - { name: name, label: Client name, type: string }
+          - { name: role, label: Role, type: string }
+      - name: case_study
+        label: Case study
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: client, label: Client, type: string }
+          - { name: challenge, label: Challenge, type: text }
+          - { name: solution, label: Solution, type: text }
+          - name: results
+            label: Results
+            type: object
+            list: true
+            fields:
+              - { name: value, label: Value, type: string }
+              - { name: label, label: Label, type: string }
+      - { name: why_title, label: Why choose us title, type: string }
+      - name: why
+        label: Why choose us
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: text }
+      - name: contact
+        label: Contact section
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: button_text, label: Button text, type: string }
+      - { name: footer_text, label: Footer text, type: string }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MFS Developer | Shopify Store Development</title>
+<meta name="description" content="Professional Shopify store development: setup, theme customization, speed optimization and app integration.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap nav-in">
+  <a href="#top" class="brand"><span class="logo">M</span><span id="site_name"></span></a>
+  <nav class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#case">Case study</a><a href="#why">Why us</a></nav>
+  <a href="#contact" class="btn sm">Contact us</a>
+</div></header>
+<main id="top">
+<section class="hero"><div class="wrap hero-in">
+  <div>
+    <h1 id="hero_title"></h1>
+    <p class="lead" id="hero_text"></p>
+    <div class="actions"><a class="btn" id="hero_btn" href="#contact"></a><a class="btn ghost" id="hero_link" href="#case"></a></div>
+  </div>
+  <div class="visual" id="hero_visual">
+    <svg viewBox="0 0 480 360" role="img" aria-label="Shopify store on desktop and phone">
+      <rect x="10" y="20" width="400" height="290" rx="14" fill="#fff" stroke="#d7e3dd" stroke-width="2"/>
+      <rect x="10" y="20" width="400" height="34" rx="14" fill="#eef5f1"/>
+      <circle cx="32" cy="37" r="5" fill="#95bf47"/><circle cx="50" cy="37" r="5" fill="#cfe0d6"/><circle cx="68" cy="37" r="5" fill="#cfe0d6"/>
+      <rect x="32" y="74" width="170" height="16" rx="8" fill="#004c3f"/><rect x="32" y="100" width="120" height="10" rx="5" fill="#cfe0d6"/><rect x="32" y="122" width="96" height="30" rx="8" fill="#008060"/>
+      <rect x="232" y="72" width="156" height="90" rx="10" fill="#dff0e6"/><path d="M250 148l30-38 22 26 18-16 40 28z" fill="#95bf47"/>
+      <g><rect x="32" y="182" width="108" height="104" rx="10" fill="#f4f8f6" stroke="#e1ece6"/><rect x="44" y="194" width="84" height="50" rx="6" fill="#cfe7d9"/><rect x="44" y="254" width="60" height="8" rx="4" fill="#004c3f"/><rect x="44" y="268" width="36" height="8" rx="4" fill="#008060"/></g>
+      <g><rect x="152" y="182" width="108" height="104" rx="10" fill="#f4f8f6" stroke="#e1ece6"/><rect x="164" y="194" width="84" height="50" rx="6" fill="#e6f2c9"/><rect x="164" y="254" width="60" height="8" rx="4" fill="#004c3f"/><rect x="164" y="268" width="36" height="8" rx="4" fill="#008060"/></g>
+      <g><rect x="272" y="182" width="116" height="104" rx="10" fill="#f4f8f6" stroke="#e1ece6"/><rect x="284" y="194" width="92" height="50" rx="6" fill="#cfe7d9"/><rect x="284" y="254" width="60" height="8" rx="4" fill="#004c3f"/><rect x="284" y="268" width="36" height="8" rx="4" fill="#008060"/></g>
+      <rect x="360" y="110" width="110" height="230" rx="18" fill="#004c3f"/><rect x="368" y="126" width="94" height="198" rx="10" fill="#fff"/>
+      <rect x="376" y="136" width="78" height="52" rx="6" fill="#dff0e6"/><rect x="376" y="198" width="52" height="8" rx="4" fill="#004c3f"/><rect x="376" y="212" width="34" height="8" rx="4" fill="#95bf47"/><rect x="376" y="234" width="78" height="26" rx="7" fill="#008060"/><rect x="376" y="270" width="78" height="40" rx="6" fill="#eef5f1"/>
+    </svg>
+  </div>
+</div></section>
+<section class="stats"><div class="wrap" id="stats"></div></section>
+
+<section class="sec" id="about"><div class="wrap two">
+  <div><h2 id="about_title"></h2><p class="muted" id="about_text"></p></div>
+  <ul class="ticks" id="about_points"></ul>
+</div></section>
+
+<section class="sec soft" id="services"><div class="wrap"><h2 id="services_title"></h2><div class="grid3" id="services"></div></div></section>
+
+<section class="sec" id="reviews"><div class="wrap"><h2 id="testimonials_title"></h2><div class="grid3" id="testimonials"></div></div></section>
+
+<section class="sec soft" id="case"><div class="wrap">
+  <h2 id="cs_title"></h2>
+  <div class="case">
+    <div>
+      <p class="tag" id="cs_client"></p>
+      <h3>The challenge</h3><p class="muted" id="cs_challenge"></p>
+      <h3>What we did</h3><p class="muted" id="cs_solution"></p>
+    </div>
+    <div class="results" id="cs_results"></div>
+  </div>
+</div></section>
+
+<section class="sec" id="why"><div class="wrap"><h2 id="why_title"></h2><div class="grid4" id="why"></div></div></section>
+
+<section class="sec band" id="contact"><div class="wrap two">
+  <div><h2 id="contact_title"></h2><p id="contact_text"></p></div>
+  <form id="wa_form" class="form">
+    <label>Your name<input name="name" required autocomplete="name"></label>
+    <label>Email<input name="email" type="email" autocomplete="email"></label>
+    <label>What do you need?
+      <select name="service" id="service_select"></select>
+    </label>
+    <label>Message<textarea name="message" rows="4" required></textarea></label>
+    <button class="btn wa" type="submit" id="contact_btn"></button>
+  </form>
+</div></section>
+</main>
+<footer class="foot"><div class="wrap" id="footer_text"></div></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
