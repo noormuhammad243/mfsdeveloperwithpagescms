@@ -19,7 +19,7 @@
     txt('hero_title', h.title); txt('hero_text', h.text);
     txt('hero_btn', h.button_text); txt('hero_link', h.secondary_text);
     $('hero_btn').href = '#contact';
-    if (h.image) { var img = el('img'); img.src = h.image; img.alt = h.title || ''; $('hero_visual').replaceChildren(img); }
+    if (h.image) {      var img = el('img');      img.src = /^https?:/.test(h.image) ? h.image : 'images/' + h.image.replace(/^\/+/, '').replace(/^images\//, '');      img.alt = h.title || '';      $('hero_visual').replaceChildren(img);    }
 
     fill('stats', d.stats, function (s) { var x = el('div', 'stat'); x.append(el('b', '', s.value), el('span', '', s.label)); return x; });
 
