@@ -4,33 +4,76 @@
     "title": "WordPress websites built to grow your business",
     "text": "MF WP Developer designs and builds fast, secure and mobile-friendly WordPress websites, from business sites to WooCommerce stores. You get clean work, clear pricing and a site you can manage yourself.",
     "button_text": "Get a free quote",
-    "secondary_text": "View case studies",
-    "image": ""
+    "secondary_text": "View case studies"
   },
   "stats": [
-    { "value": "50+", "label": "Websites delivered" },
-    { "value": "5+ years", "label": "WordPress experience" },
-    { "value": "24 hr", "label": "Reply time" },
-    { "value": "100%", "label": "Mobile responsive" }
+    {
+      "value": "500+",
+      "label": "Websites delivered"
+    },
+    {
+      "value": "8+ years",
+      "label": "WordPress experience"
+    },
+    {
+      "value": "24 hr",
+      "label": "Reply time"
+    },
+    {
+      "value": "100%",
+      "label": "Mobile responsive"
+    }
   ],
   "services_title": "What we build with WordPress",
   "services_link_text": "See all services",
   "highlights": [
-    { "icon": "design", "title": "Custom websites", "description": "Business, portfolio and company websites designed around your brand." },
-    { "icon": "cart", "title": "WooCommerce stores", "description": "Online stores with secure payments, shipping and easy product management." },
-    { "icon": "speed", "title": "Speed optimization", "description": "Faster loading pages that rank better and keep visitors on your site." }
+    {
+      "icon": "design",
+      "title": "Custom websites",
+      "description": "Business, portfolio and company websites designed around your brand."
+    },
+    {
+      "icon": "cart",
+      "title": "WooCommerce stores",
+      "description": "Online stores with secure payments, shipping and easy product management."
+    },
+    {
+      "icon": "speed",
+      "title": "Speed optimization",
+      "description": "Faster loading pages that rank better and keep visitors on your site."
+    }
   ],
   "process_title": "How we work",
   "process": [
-    { "title": "Discuss", "description": "You tell us about your business and goals. We listen and ask the right questions." },
-    { "title": "Plan and quote", "description": "We share a clear scope, timeline and fixed price before starting." },
-    { "title": "Build and review", "description": "We build your site and share progress so you can give feedback." },
-    { "title": "Launch and support", "description": "We launch, test on all devices and stay available after go-live." }
+    {
+      "title": "Discuss",
+      "description": "You tell us about your business and goals. We listen and ask the right questions."
+    },
+    {
+      "title": "Plan and quote",
+      "description": "We share a clear scope, timeline and fixed price before starting."
+    },
+    {
+      "title": "Build and review",
+      "description": "We build your site and share progress so you can give feedback."
+    },
+    {
+      "title": "Launch and support",
+      "description": "We launch, test on all devices and stay available after go-live."
+    }
   ],
   "testimonials_title": "What clients say",
   "testimonials": [
-    { "quote": "Replace this with a real client review. Keep it short and mention the result.", "name": "Client Name", "role": "Business owner" },
-    { "quote": "Replace this with a second real review from a happy client.", "name": "Client Name", "role": "Founder" }
+    {
+      "quote": "Replace this with a real client review. Keep it short and mention the result.",
+      "name": "Client Name",
+      "role": "Business owner"
+    },
+    {
+      "quote": "Replace this with a second real review from a happy client.",
+      "name": "Client Name",
+      "role": "Founder"
+    }
   ],
   "cta": {
     "title": "Ready to start your WordPress project?",
