@@ -1,0 +1,17 @@
+{
+  "page_title": "Our Services",
+  "intro": "Everything you need to launch, run and grow a WordPress website, from one dedicated developer.",
+  "services": [
+    { "icon": "design", "title": "Custom WordPress websites", "description": "A professional website planned and built for your business, not a copy of a template.", "points": ["Responsive design for phone, tablet and desktop", "SEO-ready structure", "Easy editing for your team"] },
+    { "icon": "code", "title": "Theme development and customization", "description": "Custom themes or changes to your existing theme, built with clean, safe code.", "points": ["Pixel-accurate design to code", "Child themes so updates never break your changes", "Page builder support (Elementor, Gutenberg)"] },
+    { "icon": "plug", "title": "Plugin development", "description": "Custom plugins when an off-the-shelf plugin does not fit your needs.", "points": ["Custom features and forms", "API and third-party integrations", "Secure and lightweight code"] },
+    { "icon": "cart", "title": "WooCommerce stores", "description": "Online stores that are simple to manage and easy for customers to buy from.", "points": ["Product, cart and checkout setup", "Payment and shipping methods", "Store customization and fixes"] },
+    { "icon": "speed", "title": "Speed optimization", "description": "We make slow WordPress sites fast, which helps both visitors and search rankings.", "points": ["Image and script optimization", "Caching and database clean-up", "Better Core Web Vitals scores"] },
+    { "icon": "shield", "title": "Maintenance and security", "description": "Regular care that keeps your website updated, backed up and protected.", "points": ["Updates and backups", "Malware clean-up and hardening", "Bug fixes and monthly support"] }
+  ],
+  "cta": {
+    "title": "Not sure which service you need?",
+    "text": "Tell us about your website and we will suggest the simplest option.",
+    "button_text": "Talk to us"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "page_title": "Case Studies",
+  "intro": "A look at how we help businesses get better results from WordPress. Replace these examples with your own real projects.",
+  "cases": [
+    {
+      "client": "Example: Local services company",
+      "title": "New business website that generates enquiries",
+      "challenge": "The company had an outdated website that was slow, hard to use on phones and did not bring in enquiries.",
+      "solution": "We designed a new mobile-first WordPress website with clear service pages, a quick contact form and improved page speed.",
+      "results": [
+        { "value": "0%", "label": "Replace with real result" },
+        { "value": "0%", "label": "Replace with real result" },
+        { "value": "0s", "label": "Replace with real result" }
+      ],
+      "image": ""
+    },
+    {
+      "client": "Example: Online clothing store",
+      "title": "WooCommerce store rebuilt for faster checkout",
+      "challenge": "Customers were leaving during checkout, and the store was slow because of too many plugins.",
+      "solution": "We removed unneeded plugins, optimized images, simplified the checkout steps and set up caching.",
+      "results": [
+        { "value": "0%", "label": "Replace with real result" },
+        { "value": "0%", "label": "Replace with real result" },
+        { "value": "0s", "label": "Replace with real result" }
+      ],
+      "image": ""
+    }
+  ],
+  "cta": {
+    "title": "Want results like these?",
+    "text": "Share your goals with us and we will plan the right solution.",
+    "button_text": "Start a project"
+  }
+}

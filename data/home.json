@@ -1,60 +1,40 @@
 {
-  "site_name": "MFS Developer",
-  "whatsapp_number": "923436059243",
+  "page_title": "WordPress Development Services",
   "hero": {
-    "title": "Shopify stores that look great and sell more",
-    "text": "MFS Developer builds fast, mobile-friendly Shopify stores for growing brands. From setup to custom features, we handle the technical work so you can focus on selling.",
-    "button_text": "Start on WhatsApp",
-    "secondary_text": "See our work",
+    "title": "WordPress websites built to grow your business",
+    "text": "MF WP Developer designs and builds fast, secure and mobile-friendly WordPress websites, from business sites to WooCommerce stores. You get clean work, clear pricing and a site you can manage yourself.",
+    "button_text": "Get a free quote",
+    "secondary_text": "View case studies",
     "image": ""
   },
   "stats": [
-    { "value": "50+", "label": "Stores delivered" },
-    { "value": "4+ years", "label": "Shopify experience" },
-    { "value": "24 hr", "label": "Reply time" }
+    { "value": "50+", "label": "Websites delivered" },
+    { "value": "5+ years", "label": "WordPress experience" },
+    { "value": "24 hr", "label": "Reply time" },
+    { "value": "100%", "label": "Mobile responsive" }
   ],
-  "about": {
-    "title": "About MFS Developer",
-    "text": "We are a Shopify development team that works directly with store owners. No middlemen, clear pricing, and code that is clean and easy to maintain. Whether you are launching your first store or fixing an existing one, we build it the right way.",
-    "points": ["Shopify-focused, not a general agency", "Direct communication with the developer", "Clear scope, price and timeline before we start"]
-  },
-  "services_title": "Shopify services",
-  "services": [
-    { "icon": "bag", "title": "Store setup", "description": "Complete Shopify store setup: products, collections, payments, shipping and taxes." },
-    { "icon": "code", "title": "Theme customization", "description": "Custom sections and layouts built in Liquid to match your brand exactly." },
-    { "icon": "speed", "title": "Speed optimization", "description": "Faster load times through image, script and theme clean-up, so visitors stay and buy." },
-    { "icon": "app", "title": "App integration", "description": "Set up and connect reviews, email, upsell, subscriptions and other Shopify apps." },
-    { "icon": "move", "title": "Store migration", "description": "Move your store from WooCommerce, Wix or another platform to Shopify safely." },
-    { "icon": "tools", "title": "Support and fixes", "description": "Bug fixes, small updates and ongoing help whenever your store needs it." }
+  "services_title": "What we build with WordPress",
+  "services_link_text": "See all services",
+  "highlights": [
+    { "icon": "design", "title": "Custom websites", "description": "Business, portfolio and company websites designed around your brand." },
+    { "icon": "cart", "title": "WooCommerce stores", "description": "Online stores with secure payments, shipping and easy product management." },
+    { "icon": "speed", "title": "Speed optimization", "description": "Faster loading pages that rank better and keep visitors on your site." }
+  ],
+  "process_title": "How we work",
+  "process": [
+    { "title": "Discuss", "description": "You tell us about your business and goals. We listen and ask the right questions." },
+    { "title": "Plan and quote", "description": "We share a clear scope, timeline and fixed price before starting." },
+    { "title": "Build and review", "description": "We build your site and share progress so you can give feedback." },
+    { "title": "Launch and support", "description": "We launch, test on all devices and stay available after go-live." }
   ],
   "testimonials_title": "What clients say",
   "testimonials": [
-    { "quote": "Replace this with a real client review. Keep it short and specific about the result.", "name": "Client Name", "role": "Store owner" },
-    { "quote": "Replace this with a second real review from a happy client.", "name": "Client Name", "role": "Founder" },
-    { "quote": "Replace this with a third real review.", "name": "Client Name", "role": "Marketing manager" }
+    { "quote": "Replace this with a real client review. Keep it short and mention the result.", "name": "Client Name", "role": "Business owner" },
+    { "quote": "Replace this with a second real review from a happy client.", "name": "Client Name", "role": "Founder" }
   ],
-  "case_study": {
-    "title": "Case study: a faster store, more orders",
-    "client": "Example fashion store",
-    "challenge": "The store loaded slowly on mobile and many visitors left before buying.",
-    "solution": "We rebuilt the theme sections, compressed images, removed unused apps and simplified checkout steps.",
-    "results": [
-      { "value": "0%", "label": "Replace with real result" },
-      { "value": "0%", "label": "Replace with real result" },
-      { "value": "0s", "label": "Replace with real result" }
-    ]
-  },
-  "why_title": "Why choose us",
-  "why": [
-    { "title": "Shopify specialists", "description": "We work on Shopify every day, so we know what works." },
-    { "title": "Mobile first", "description": "Most shoppers use phones. Every page is built for small screens first." },
-    { "title": "Fair, clear pricing", "description": "You get a quote before work starts. No surprise charges." },
-    { "title": "Fast replies", "description": "Message us on WhatsApp and get an answer the same day." }
-  ],
-  "contact": {
-    "title": "Tell us about your store",
-    "text": "Fill in the form and it opens WhatsApp with your message ready to send.",
-    "button_text": "Send on WhatsApp"
-  },
-  "footer_text": "© 2026 MFS Developer. All rights reserved."
+  "cta": {
+    "title": "Ready to start your WordPress project?",
+    "text": "Send us a message on WhatsApp and get a reply within 24 hours.",
+    "button_text": "Contact us"
+  }
 }

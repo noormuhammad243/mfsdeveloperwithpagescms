@@ -1,0 +1,24 @@
+{
+  "page_title": "About Us",
+  "intro": "A WordPress-focused developer who works directly with you, from the first message to launch and beyond.",
+  "story_title": "Our story",
+  "story": "MF WP Developer was started to give businesses an honest, reliable alternative to big agencies. We focus on one platform, WordPress, and we do it well.\n\nWe believe a website should be fast, easy to manage and built to help your business grow. That means clean code, clear communication and fair prices.\n\nWhether you need a new website, a WooCommerce store or help with an existing site, you will always talk directly to the person doing the work.",
+  "image": "",
+  "stats": [
+    { "value": "50+", "label": "Websites delivered" },
+    { "value": "5+ years", "label": "WordPress experience" },
+    { "value": "100%", "label": "Client focus" }
+  ],
+  "values_title": "What we stand for",
+  "values": [
+    { "icon": "code", "title": "Quality code", "description": "Clean, secure code that is easy to maintain and extend." },
+    { "icon": "shield", "title": "Honesty", "description": "Clear scope, fair price and no hidden charges." },
+    { "icon": "speed", "title": "Speed", "description": "Fast websites and fast replies to your messages." },
+    { "icon": "design", "title": "Design that works", "description": "Good looks that also help visitors take action." }
+  ],
+  "cta": {
+    "title": "Let us build something great together",
+    "text": "Message us and tell us about your project.",
+    "button_text": "Contact us"
+  }
+}

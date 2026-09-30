@@ -1,13 +1,26 @@
 media: images
 
 content:
+  - name: site
+    label: Site Settings
+    type: file
+    path: data/site.json
+    fields:
+      - { name: site_name, label: Business name, type: string }
+      - { name: tagline, label: Tagline, type: string }
+      - { name: whatsapp_number, label: WhatsApp number (country code, no + or spaces), type: string }
+      - { name: phone_display, label: Phone (as shown on site), type: string }
+      - { name: email, label: Email, type: string }
+      - { name: address, label: Address, type: string }
+      - { name: hours, label: Working hours, type: string }
+      - { name: footer_text, label: Footer text, type: string }
+
   - name: home
-    label: Landing Page
+    label: Home Page
     type: file
     path: data/home.json
     fields:
-      - { name: site_name, label: Business name, type: string }
-      - { name: whatsapp_number, label: WhatsApp number (country code, no + or spaces), type: string }
+      - { name: page_title, label: Browser tab title, type: string }
       - name: hero
         label: Hero
         type: object
@@ -15,33 +28,31 @@ content:
           - { name: title, label: Title, type: string }
           - { name: text, label: Text, type: text }
           - { name: button_text, label: Button text, type: string }
-          - { name: secondary_text, label: Second link text, type: string }
-          - { name: image, label: Image (optional), type: image }
+          - { name: secondary_text, label: Second button text, type: string }
+          - { name: image, label: Hero image (optional), type: image }
       - name: stats
-        label: Numbers under hero
+        label: Numbers
         type: object
         list: true
         fields:
           - { name: value, label: Value, type: string }
           - { name: label, label: Label, type: string }
-      - name: about
-        label: About
-        type: object
-        fields:
-          - { name: title, label: Title, type: string }
-          - { name: text, label: Text, type: text }
-          - { name: points, label: Key points, type: string, list: true }
       - { name: services_title, label: Services title, type: string }
-      - name: services
-        label: Services
+      - { name: services_link_text, label: Services link text, type: string }
+      - name: highlights
+        label: Service highlights
         type: object
         list: true
         fields:
-          - name: icon
-            label: Icon
-            type: select
-            options:
-              values: [bag, code, speed, app, move, tools]
+          - { name: icon, label: Icon, type: select, options: { values: [design, code, plug, cart, speed, shield] } }
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: text }
+      - { name: process_title, label: Process title, type: string }
+      - name: process
+        label: Process steps
+        type: object
+        list: true
+        fields:
           - { name: title, label: Title, type: string }
           - { name: description, label: Description, type: text }
       - { name: testimonials_title, label: Testimonials title, type: string }
@@ -53,12 +64,52 @@ content:
           - { name: quote, label: Quote, type: text }
           - { name: name, label: Client name, type: string }
           - { name: role, label: Role, type: string }
-      - name: case_study
-        label: Case study
+      - name: cta
+        label: Bottom call-to-action
         type: object
         fields:
           - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: button_text, label: Button text, type: string }
+
+  - name: services
+    label: Our Services Page
+    type: file
+    path: data/services.json
+    fields:
+      - { name: page_title, label: Page title, type: string }
+      - { name: intro, label: Intro, type: text }
+      - name: services
+        label: Services
+        type: object
+        list: true
+        fields:
+          - { name: icon, label: Icon, type: select, options: { values: [design, code, plug, cart, speed, shield] } }
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: text }
+          - { name: points, label: Bullet points, type: string, list: true }
+      - name: cta
+        label: Bottom call-to-action
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: button_text, label: Button text, type: string }
+
+  - name: case-study
+    label: Case Study Page
+    type: file
+    path: data/case-study.json
+    fields:
+      - { name: page_title, label: Page title, type: string }
+      - { name: intro, label: Intro, type: text }
+      - name: cases
+        label: Case studies
+        type: object
+        list: true
+        fields:
           - { name: client, label: Client, type: string }
+          - { name: title, label: Title, type: string }
           - { name: challenge, label: Challenge, type: text }
           - { name: solution, label: Solution, type: text }
           - name: results
@@ -68,19 +119,56 @@ content:
             fields:
               - { name: value, label: Value, type: string }
               - { name: label, label: Label, type: string }
-      - { name: why_title, label: Why choose us title, type: string }
-      - name: why
-        label: Why choose us
-        type: object
-        list: true
-        fields:
-          - { name: title, label: Title, type: string }
-          - { name: description, label: Description, type: text }
-      - name: contact
-        label: Contact section
+          - { name: image, label: Image (optional), type: image }
+      - name: cta
+        label: Bottom call-to-action
         type: object
         fields:
           - { name: title, label: Title, type: string }
           - { name: text, label: Text, type: text }
           - { name: button_text, label: Button text, type: string }
-      - { name: footer_text, label: Footer text, type: string }
+
+  - name: about
+    label: About Us Page
+    type: file
+    path: data/about.json
+    fields:
+      - { name: page_title, label: Page title, type: string }
+      - { name: intro, label: Intro, type: text }
+      - { name: story_title, label: Story title, type: string }
+      - { name: story, label: Story (blank line = new paragraph), type: text }
+      - { name: image, label: Image (optional), type: image }
+      - name: stats
+        label: Numbers
+        type: object
+        list: true
+        fields:
+          - { name: value, label: Value, type: string }
+          - { name: label, label: Label, type: string }
+      - { name: values_title, label: Values title, type: string }
+      - name: values
+        label: Values
+        type: object
+        list: true
+        fields:
+          - { name: icon, label: Icon, type: select, options: { values: [design, code, plug, cart, speed, shield] } }
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: text }
+      - name: cta
+        label: Bottom call-to-action
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: button_text, label: Button text, type: string }
+
+  - name: contact
+    label: Contact Us Page
+    type: file
+    path: data/contact.json
+    fields:
+      - { name: page_title, label: Page title, type: string }
+      - { name: intro, label: Intro, type: text }
+      - { name: info_title, label: Info title, type: string }
+      - { name: form_title, label: Form title, type: string }
+      - { name: button_text, label: Form button text, type: string }
