@@ -28,7 +28,7 @@
   }
   function get(f) { return fetch('data/' + f + '.json').then(function (r) { return r.json(); }); }
   function sec(cls, title) { var s = el('section', 'sec ' + (cls || '')), w = el('div', 'wrap'); s.appendChild(w); if (title) w.appendChild(el('h2', '', title)); return { s: s, w: w }; }
-  function link(text, href, cls) { var a = el('a', cls || 'btn', text); a.href = href; return a; }
+  function link(text, href, cls) { var a = el('a', cls === undefined ? 'btn' : cls, text); a.href = href; return a; }
 
   function phead(d) { var s = el('section', 'phead'), w = el('div', 'wrap'); kids(w, [el('h1', '', d.page_title), el('p', 'lead', d.intro)]); s.appendChild(w); return s; }
   function cards(items, cls) {
